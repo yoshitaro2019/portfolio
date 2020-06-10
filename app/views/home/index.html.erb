@@ -1,22 +1,25 @@
 <%# <h2>Hello world!</h2> %>
 
-<section class="home">
-  <div class="header wrapper">
-
-    <div class="nav-logo">
-      <img src="" alt="ひつじのアイコン">
+<section class="home big-bg" id="home">
+  <div class="header">
+    <div class="wrapper">
+      <div class="nav-logo">
+        <%= image_tag "logo-sheep.png", alt: "ひつじロゴ", id: "assets", class: "image" %>
+      </div>
+      <div class="nav">
+        <ul class="nav--ul">
+          <li>Home</li>
+          <li>About</li>
+          <li>Skills</li>
+          <li>Portfolio</li>
+          <li>Service</li>
+          <li>Contact</li>
+        </ul>
+      </div>
     </div>
-    <div class="nav">
-      <ul class="">
-        <li>Home</li>
-        <li>About</li>
-        <li>Skills</li>
-        <li>Portfolio</li>
-        <li>Service</li>
-        <li>Contact</li>
-      </ul>
-    </div>
-
+  </div>
+  <div class="home-body">
+    <h1>Michiko Sakai Portfolio Website</h1>
   </div>
 </section>
 

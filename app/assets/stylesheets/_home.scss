@@ -1,0 +1,111 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+// 共通
+
+@charset "UFT-8";
+
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
+  line-height: 1.7;
+  color: #141414;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+// 共通項終了
+
+.big-bg {
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+#home {
+
+}
+
+.home {
+  background-image: url(maldives.jpg);
+  min-height: 100vh;
+  position: relative;
+  .header {
+    height: 70px;
+    background-color: rgba(31, 121, 216, 0.6);
+    // position: fixed;
+    .wrapper {
+      height: 70px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .nav-logo{
+      img {
+        height: 50px;
+        color: #fff;
+      }
+    }
+    .nav {
+      display: flex;
+      &--ul {
+        display: flex;
+        li {
+          padding-left: 20px;
+          font-weight: bold;
+          color: #fff;
+        }
+      }
+    }
+  }
+  .home-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h1 {
+      font-size: 50px;
+      font-weight: bold;
+      color: #fff;
+      text-align: center;
+      display: inline-block;
+      position: absolute;
+      top: 50%;
+    }
+  }
+
+}
+
+
+
+
+
+
+
+h3 {
+  color: tomato;
+}
