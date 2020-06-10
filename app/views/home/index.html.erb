@@ -4,7 +4,7 @@
   <div class="header">
     <div class="wrapper">
       <div class="nav-logo">
-        <%= image_tag "logo-sheep.png", alt: "ひつじロゴ", id: "assets", class: "image" %>
+        <%= image_tag "logo-sheep.png", alt: "ひつじロゴ", id: "assets", class: "" %>
       </div>
       <div class="nav">
         <ul class="nav--ul">
@@ -25,7 +25,7 @@
 
 
 
-<section class="about wrapper" id="about">
+<section class="about wrapper section-top" id="about">
   <div class="title">
     <h2>ABOUT</h2>
     <div class="title-underline"></div>
@@ -33,99 +33,99 @@
 
   <div class="about-box">
     <div class="about-image">
-      <img src="" alt="Michiko Sakaiの写真">
+      <%= image_tag "sheep.png", alt: "Michiko Sakaiの写真", class: "" %>
     </div>
     <div class="about-text">
       <p>お菓子の販売職でスタッフを約3年間経験したあと、7年間店長を勤めました。</p>
       <p>結婚・出産を機に自分のライフワークを改めて考え直し、時間や場所にとらわれないWebクリエイターとしての道を切りひらくため、テックキャンプに入校。</p>
       <p>現職を続けながらエンジニアコース（夜間/休日スタイル）にて約半年間、フロントエンドから、サーバーサイド、インフラまで学習しました。</p>
+      
+      <button class="lead-more-btn">Lead More</button>
     </div>
-    <div>
-      <button>Lead More</button>
-    </div>
+  
   </div>
 
 </section>
 
 
 <section class="skills" id="skills">
-  <div class="title">
-    <h2>SKILLS</h2>
-    <div class="title-underline"></div>
+  <div class=" section-top2 wrapper">
+    <div class="title">
+      <h2>SKILLS</h2>
+      <div class="title-underline"></div>
+    </div>
+    <div class="skill-box">
+      <ul class="skill-item">
+        <li class="skill-items">
+          <%= image_tag "html-5.svg", alt: "HTML5のロゴ", class: "" %>
+          <p>HTML5</p>
+        </li>
+        <li class="skill-items">
+          <%= image_tag "css-3.svg", alt: "CSS3のロゴ", class: "" %>
+          <p>CSS3</p>
+        </li>
+        <li class="skill-items">
+          <%= image_tag "sass.svg", alt: "Sassのロゴ", class: "" %>
+          <p>Sass</p>
+        </li>
+        <li class="skill-items">
+          <%= image_tag "javascript.svg", alt: "JSのロゴ", class: "" %>
+          <p>Java Script</p>
+        </li>
+        <li class="skill-items">
+          <%= image_tag "jquery.svg", alt: "jQueryのロゴ", class: "" %>
+          <p>jQuery</p>
+        </li>
+        <li class="skill-items">
+          <%= image_tag "ruby.svg", alt: "Rubyのロゴ", class: "" %>
+          <p>Ruby</p>
+        </li>
+        <li class="skill-items">
+          <%= image_tag "rails.svg", alt: "Railsのロゴ", class: "" %>
+          <p>Rails</p>
+        </li>
+        <li class="skill-items">
+          <%= image_tag "github-icon.svg", alt: "GitHubのロゴ", class: "" %>
+          <p>Git/GitHub</p>
+        </li>
+        <li class="skill-items">
+          <%= image_tag "aws.svg", alt: "AWSのロゴ", class: "" %>
+          <p>AWS</p>
+        </li>
+      </ul>
+    </div>
   </div>
-  <div class="skill-box">
-    <ul>
-      <li class="slill-item">
-        <i></i>
-        <p>HTML5</p>
-      </li>
-      <li class="slill-item">
-        <i></i>
-        <p>CSS</p>
-      </li>
-      <li class="slill-item">
-        <i></i>
-        <p>Sass</p>
-      </li>
-      <li class="slill-item">
-        <i></i>
-        <p>Java Script</p>
-      </li>
-      <li class="slill-item">
-        <i></i>
-        <p>jQuery</p>
-      </li>
-      <li class="slill-item">
-        <i></i>
-        <p>Ruby</p>
-      </li>
-      <li class="slill-item">
-        <i></i>
-        <p>Rails</p>
-      </li>
-      <li class="slill-item">
-        <i></i>
-        <p>Git/GitHub</p>
-      </li>
-      <li class="slill-item">
-        <i></i>
-        <p>AWS</p>
-      </li>
-
-    </ul>
-  </div>
-
 </section>
 
 
-<section class="portfolio" id="portfolio"> 
+<section class="portfolio section-top wrapper" id="portfolio"> 
   <div class="title">
     <h2>PORTFOLIO</h2>
     <div class="title-underline"></div>
   </div>
 
   <div class="portfolio-box">
-    <ul>
-     <li class="portfolio-item">
-      <img src="" alt="作品のキャプチャ">
+    <ul class="portfolio-item">
+     <li class="portfolio-items">
+      <%= image_tag "Bootstrap4_website.png", alt: "", class: "" %>
      </li>
-     <li class="portfolio-item">
-      <img src="" alt="作品のキャプチャ">
+     <li class="portfolio-items">
+      <%= image_tag "Nuno_website.png", alt: "", class: "" %>
      </li>
-     <li class="portfolio-item">
-      <img src="" alt="作品のキャプチャ">
+     <li class="portfolio-items">
+      <%= image_tag "kurisuta01.png", alt: "", class: "" %>
      </li>
-     <li class="portfolio-item">
-      <img src="" alt="作品のキャプチャ">
+     <li class="portfolio-items">
+      <%= image_tag "kurisuta02.png", alt: "", class: "" %>
      </li>
-     <li class="portfolio-item">
-      <img src="" alt="作品のキャプチャ">
+     <li class="portfolio-items">
+      <%= image_tag "chat-space.png", alt: "", class: "" %>
      </li>
-     <li class="portfolio-item">
-      <img src="" alt="作品のキャプチャ">
+     <li class="portfolio-items">
+      <%= image_tag "FreemarketSample61a.png", alt: "", class: "" %>
      </li>
-     <li class="portfolio-item">
-      <img src="" alt="作品のキャプチャ">
+     <li class="portfolio-items">
+      <%= image_tag "", alt: "", class: "" %>
      </li>
     
     </ul>
@@ -134,27 +134,50 @@
 
 
 <section class="service" id="service">
+  <div class="section-top2 wrapper">
+
+    <div class="title">
+      <h2>SERVICE</h2>
+      <div class="title-underline"></div>
+    </div>
+
+  <div class="service-inner">
+    <div class="service-box">
+      <div class="service-title">
+        <%= image_tag "pc-icon02.png", alt: "PCの画像", class: "" %>
+        <h3>Webページ制作 25,000円～</h3>
+      </div>
+
+
+
+      <div class="service-text">
+        <p>テンプレートを元にレスポンシブ対応なWebページをデザイン、コーディングします。</p>
+        <p class="deadline">納期目安：4週間以内</p>
+      </div>
+
+    </div>
+  </div>
+  </div>
+</section>
+
+
+<section class="contact wrapper" id="contact">
   <div class="title">
-    <h2>SERVICE</h2>
+    <h2>CONTACT</h2>
     <div class="title-underline"></div>
   </div>
+  <div class="contact-inner">
+    <div class="contact-box">
+      <p>お気軽にお問い合わせください</p>
+      <button class="contact-btn">Contact</button>
+    </div>
 
-<div class="service-inner">
-  <div class="service-box">
-    <i></i>
-    <h3>Webページ制作 30,000円～</h3>
-    <p>テンプレートを元にレスポンシブ対応なWebページをデザイン、コーディングします。</p>
-    <p>納期目安：4週間以内</p>
   </div>
-    <i></i>
-    <h3>Webページ制作 30,000円～</h3>
-    <p>テンプレートを元にレスポンシブ対応なWebページをデザイン、コーディングします。</p>
-    <p>納期目安：4週間以内</p>
-  </div>
-</div>
-
 
 </section>
+
+
+
 
 
 <footer>
