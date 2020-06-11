@@ -1,5 +1,8 @@
 <%# <h2>Hello world!</h2> %>
 
+
+
+
 <section class="home big-bg" id="home">
   <div class="header">
     <div class="wrapper">
@@ -8,12 +11,12 @@
       </div>
       <div class="nav">
         <ul class="nav--ul">
-          <li>Home</li>
-          <li>About</li>
-          <li>Skills</li>
-          <li>Portfolio</li>
-          <li>Service</li>
-          <li>Contact</li>
+          <li><%= link_to "Home", anchor: "home" %></li>
+          <li><%= link_to "About", anchor: "about" %></li>
+          <li><%= link_to "Skills", anchor: "skills" %></li>
+          <li><%= link_to "Portfolio", anchor: "portfolio" %></li>
+          <li><%= link_to "Service", anchor: "service" %></li>
+          <li><%= link_to "Contact", anchor: "contact" %></li>
         </ul>
       </div>
     </div>
@@ -27,11 +30,11 @@
 
 <section class="about wrapper section-top" id="about">
   <div class="title">
-    <h2>ABOUT</h2>
-    <div class="title-underline"></div>
+    <h2 class="fadein01">ABOUT</h2>
+    <div class="title-underline fadein01"></div>
   </div>
 
-  <div class="about-box">
+  <div class="about-box fadein01">
     <div class="about-image">
       <%= image_tag "sheep.png", alt: "Michiko Sakaiの写真", class: "" %>
     </div>
@@ -51,10 +54,10 @@
 <section class="skills" id="skills">
   <div class=" section-top2 wrapper">
     <div class="title">
-      <h2>SKILLS</h2>
-      <div class="title-underline"></div>
+      <h2 class="fadein01">SKILLS</h2>
+      <div class="title-underline fadein01"></div>
     </div>
-    <div class="skill-box">
+    <div class="skill-box fadein01">
       <ul class="skill-item">
         <li class="skill-items">
           <%= image_tag "html-5.svg", alt: "HTML5のロゴ", class: "" %>
@@ -100,11 +103,11 @@
 
 <section class="portfolio section-top wrapper" id="portfolio"> 
   <div class="title">
-    <h2>PORTFOLIO</h2>
-    <div class="title-underline"></div>
+    <h2 class="fadein01">PORTFOLIO</h2>
+    <div class="title-underline fadein01"></div>
   </div>
 
-  <div class="portfolio-box">
+  <div class="portfolio-box fadein01">
     <ul class="portfolio-item">
      <li class="portfolio-items">
       <%= image_tag "Bootstrap4_website.png", alt: "", class: "" %>
@@ -137,11 +140,11 @@
   <div class="section-top2 wrapper">
 
     <div class="title">
-      <h2>SERVICE</h2>
-      <div class="title-underline"></div>
+      <h2 class="fadein01">SERVICE</h2>
+      <div class="title-underline fadein01"></div>
     </div>
 
-  <div class="service-inner">
+  <div class="service-inner fadein01">
     <div class="service-box">
       <div class="service-title">
         <%= image_tag "pc-icon02.png", alt: "PCの画像", class: "" %>
@@ -163,14 +166,16 @@
 
 <section class="contact wrapper" id="contact">
   <div class="title">
-    <h2>CONTACT</h2>
-    <div class="title-underline"></div>
+    <h2 class="fadein01">CONTACT</h2>
+    <div class="title-underline fadein01"></div>
   </div>
-  <div class="contact-inner">
+  <div class="contact-inner fadein01">
     <div class="contact-box">
       <p>お気軽にお問い合わせください</p>
       <button class="contact-btn">Contact</button>
     </div>
+
+
 
   </div>
 
@@ -178,8 +183,16 @@
 
 
 
+    
 
+  
+  <svg width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" class="wave-svg"><defs></defs><path id="wave" d=""/></svg>
+ 
 
 <footer>
-    <p><small>&copy; 2020 Michiko Sakai portfolio</small></p>
+
+
+
+   <p><small>&copy; 2020 Michiko Sakai portfolio</small></p>
+
 </footer>
