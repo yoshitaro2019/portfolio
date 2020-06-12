@@ -1,8 +1,3 @@
-<%# <h2>Hello world!</h2> %>
-
-
-
-
 <section class="home big-bg" id="home">
   <div class="header">
     <div class="wrapper">
@@ -11,12 +6,12 @@
       </div>
       <div class="nav">
         <ul class="nav--ul">
-          <li><%= link_to "Home", anchor: "home" %></li>
-          <li><%= link_to "About", anchor: "about" %></li>
-          <li><%= link_to "Skills", anchor: "skills" %></li>
-          <li><%= link_to "Portfolio", anchor: "portfolio" %></li>
-          <li><%= link_to "Service", anchor: "service" %></li>
-          <li><%= link_to "Contact", anchor: "contact" %></li>
+          <li><%= link_to "Home", "/", data: {turbolinks: "false"}%></li>
+          <li><%= link_to "About", "/#about", data: {turbolinks: "false"}%></li>
+          <li><%= link_to "Skills", "/#skills", data: {turbolinks: "false"}%></li>
+          <li><%= link_to "Portfolio","/#portfolio", data: {turbolinks: "false"} %></li>
+          <li><%= link_to "Service", "/#service", data: {turbolinks: "false"}%></li>
+          <li><%= link_to "Contact" %></li>
         </ul>
       </div>
     </div>
@@ -109,27 +104,27 @@
 
   <div class="portfolio-box fadein01">
     <ul class="portfolio-item">
-     <li class="portfolio-items">
-      <%= image_tag "Bootstrap4_website.png", alt: "", class: "" %>
-     </li>
-     <li class="portfolio-items">
-      <%= image_tag "Nuno_website.png", alt: "", class: "" %>
-     </li>
-     <li class="portfolio-items">
-      <%= image_tag "kurisuta01.png", alt: "", class: "" %>
-     </li>
-     <li class="portfolio-items">
-      <%= image_tag "kurisuta02.png", alt: "", class: "" %>
-     </li>
-     <li class="portfolio-items">
-      <%= image_tag "chat-space.png", alt: "", class: "" %>
-     </li>
-     <li class="portfolio-items">
-      <%= image_tag "FreemarketSample61a.png", alt: "", class: "" %>
-     </li>
-     <li class="portfolio-items">
-      <%= image_tag "", alt: "", class: "" %>
-     </li>
+      <li class="portfolio-items">
+        <%= link_to image_tag("Bootstrap4_website.png"), "/home/bootstrap01", data: {turbolinks: "false"} %>
+      </li>
+      <li class="portfolio-items">
+        <%= link_to image_tag("Nuno_website.png"), "/home/bootstrap02", data: {turbolinks: "false"} %>
+      </li>
+      <li class="portfolio-items">
+        <%= link_to image_tag("kurisuta01.png"), "/home/kurisuta01", data: {turbolinks: "false"} %>
+      </li>
+      <li class="portfolio-items">
+        <%= link_to image_tag("kurisuta02.png"), "/home/kurisuta02", data: {turbolinks: "false"} %>
+      </li>
+      <li class="portfolio-items">
+        <%= link_to image_tag("chat-space.png"), "/home/chat_space", data: {turbolinks: "false"} %>
+      </li>
+      <li class="portfolio-items">
+        <%= link_to image_tag("FreemarketSample61a.png"), "/home/freemarket61", data: {turbolinks: "false"} %>
+      </li>
+      <li class="portfolio-items">
+        <%= image_tag "", alt: "", class: "" %>
+      </li>
     
     </ul>
   </div>
