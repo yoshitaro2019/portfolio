@@ -1,23 +1,8 @@
 <section class="home big-bg" id="home">
-  <div class="header">
-    <div class="wrapper">
-      <div class="nav-logo">
-        <%= image_tag "logo-sheep.png", alt: "ひつじロゴ", id: "assets", class: "" %>
-      </div>
-      <div class="nav">
-        <ul class="nav--ul">
-          <li><%= link_to "Home", "/", data: {turbolinks: "false"}%></li>
-          <li><%= link_to "About", "/#about", data: {turbolinks: "false"}%></li>
-          <li><%= link_to "Skills", "/#skills", data: {turbolinks: "false"}%></li>
-          <li><%= link_to "Portfolio","/#portfolio", data: {turbolinks: "false"} %></li>
-          <li><%= link_to "Service", "/#service", data: {turbolinks: "false"}%></li>
-          <li><%= link_to "Contact" %></li>
-        </ul>
-      </div>
-    </div>
-  </div>
+  <%= render "header"%>
+
   <div class="home-body">
-    <h1>Michiko Sakai Portfolio Website</h1>
+    <h1>Michiko Sakai <span class="br">Portfolio Website</span></h1>
   </div>
 </section>
 
@@ -36,7 +21,7 @@
     <div class="about-text">
       <p>お菓子の販売職でスタッフを約3年間経験したあと、7年間店長を勤めました。</p>
       <p>結婚・出産を機に自分のライフワークを改めて考え直し、時間や場所にとらわれないWebクリエイターとしての道を切りひらくため、テックキャンプに入校。</p>
-      <p>現職を続けながらエンジニアコース（夜間/休日スタイル）にて約半年間、フロントエンドから、サーバーサイド、インフラまで学習しました。</p>
+      <p>現職を続けながらエンジニアコース（夜間/休日スタイル）にて約半年間、フロントエンドから、サーバーサイド、サーバー構築まで学習しました。</p>
       
       <button class="lead-more-btn">Lead More</button>
     </div>
@@ -167,7 +152,9 @@
   <div class="contact-inner fadein01">
     <div class="contact-box">
       <p>お気軽にお問い合わせください</p>
-      <button class="contact-btn">Contact</button>
+      <button class="contact-btn">
+        <%= link_to "Contact","https://docs.google.com/forms/d/e/1FAIpQLScgbjajJ5uBlUC22UOxIPpGbCBtQz40SIu_y9MYnYRRimhSFg/viewform?usp=sf_link", target: :"_blank"%>
+      </button>
     </div>
 
 
