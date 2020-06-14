@@ -72,6 +72,7 @@ p {
   }
 }
 
+// normal_header_start
 
 .header {
   height: 70px;
@@ -108,13 +109,20 @@ p {
             // letter-spacing: 3px;
           }
         }
- 
-
       }
     }
   }
+  // ハンバーガーメニュー非表示
+  .btn-gnavi {
+    display: none;
+  }
+  nav#global-navi {
+    display: none;
+  }
+
 }
 
+// normal_header_end
 
 
 
@@ -448,9 +456,18 @@ footer {
 	transform : translate(0, 0);
   }
   
-// パターン２
+// フェードイン パターン２
 .fadein01 {
   opacity : 0.1;
 	transform : translate(0, 50px);
   transition : all 1s ease ; 
 }
+
+
+
+
+
+
+
+
+
