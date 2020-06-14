@@ -67,6 +67,5 @@ $(function(){
     $("#global-navi").stop().animate({
       right: rightVal
     },300);
-    
   });
 });
