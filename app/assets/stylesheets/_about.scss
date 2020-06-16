@@ -27,6 +27,9 @@
         span.blank {
           margin-left: 10px;
         }
+        span.age {
+          font-weight: normal;
+        }
         p {
           font-size: 16px;
         }
@@ -56,9 +59,16 @@
   }
   span {
     font-size: 20px;
+    font-weight: normal;
+  }
+  p:first-of-type {
+    margin-top: 5px;
+  }
+  span.blank {
+    margin-left: 10px;
   }
    &__blog {
-     margin-top: 40px;
+     margin-top: 60px;
      h3 {
        font-size: 20px;
        font-weight: bold;
