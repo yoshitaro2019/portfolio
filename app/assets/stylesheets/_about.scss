@@ -1,0 +1,376 @@
+
+.about_top {
+  .header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #2063C1;
+  }
+  .about_inner {
+    margin-top: 70px;
+    padding-top: 100px;
+    .about-box {
+      display: flex;
+      justify-content: space-around;
+      .about-image {
+        img {
+  
+        }
+      }
+      .about-text {
+        h2 {
+          font-size: 30px;
+          font-weight: bold;
+          font-family: 'Roboto', sans-serif;
+          letter-spacing: 1.5px;
+        }
+        span.blank {
+          margin-left: 10px;
+        }
+        p {
+          font-size: 16px;
+        }
+        p.birthday {
+          font-weight: bold;
+        }
+        h3 {
+          font-size: 20px;
+          margin-top: 30px;
+          font-weight: bold;
+        }
+        p.carrar {
+          margin-top: 5px;
+        }
+      }
+    }
+  }
+  
+
+}
+
+.about_challenge {
+  margin-top: 100px;
+  h2 {
+    font-weight: bold;
+    font-size: 30px;
+  }
+  span {
+    font-size: 20px;
+  }
+   &__blog {
+     margin-top: 40px;
+     h3 {
+       font-size: 20px;
+       font-weight: bold;
+     }
+     span.h3-underline {
+      width: 150px;
+      border-bottom: solid 1px #888;
+      display: inline-block;
+      display: flex;
+      margin-top: 5px;
+     }
+     p:first-of-type{
+      margin-top: 30px;
+     }
+     span.blank {
+      margin-left: 10px;
+    }
+   }
+   &__programming {
+    margin-top: 120px;
+     h3 {
+      font-size: 20px;
+      font-weight: bold;
+     }
+     span.h3-underline {
+      width: 300px;
+      border-bottom: solid 1px #888;
+      display: inline-block;
+      display: flex;
+      margin-top: 5px;
+     }
+     ul {
+       margin-top: 30px;
+       font-weight: bold;
+       font-size: 18px;
+       li {
+         font-weight: normal;
+         list-style: inside;
+         padding-left: 5px;
+         font-size: 16px;
+       }
+       li:first-of-type {
+         margin-top: 15px;
+       }
+
+     }
+     ul:nth-of-type(n+2) {
+      margin-top: 50px;
+    }
+   }
+  &__another {
+    margin-top: 100px;
+    h3 {
+      font-size: 20px;
+      font-weight: bold;
+     }
+    span.h3-underline {
+      width: 300px;
+      border-bottom: solid 1px #888;
+      display: inline-block;
+      display: flex;
+      margin-top: 5px;
+     }
+    ul {
+      li {
+        font-weight: normal;
+        list-style: inside;
+        padding-left: 5px;
+        font-size: 16px;
+      }
+       li:first-of-type {
+        margin-top: 15px;
+      }
+    }
+  }
+}
+
+.objective {
+  margin-top: 200px;
+
+  &__box {
+    display: flex;
+    justify-content: space-between;
+    h2 {
+      font-size: 30px;
+      font-weight: bold;
+    }
+    &--text {
+      width: 60%;
+      p {
+        letter-spacing: 1px;
+      }
+      p:first-of-type{
+        margin-top: 30px;
+       }
+    }
+    &--image {
+      // margin-right: 50px;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:375px) {
+
+  // span.br::before {
+  //   content: "\A" ;
+  //   white-space: pre ;
+  //   padding-left: 100px;
+  // }
+
+
+  .about_top {
+    .about_inner {
+      margin-top: 70px;
+      padding-top: 50px;
+      .about-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .about-image {
+          img {
+    
+          }
+        }
+        .about-text {
+          h2 {
+            margin-top: 30px;
+            font-size: 30px;
+            font-weight: bold;
+            font-family: 'Roboto', sans-serif;
+            letter-spacing: 1.5px;
+            text-align: center;
+          }
+          span.blank {
+            margin-left: 10px;
+          }
+          p {
+            font-size: 14px;
+            
+            
+          }
+          p.birthday {
+            font-weight: bold;
+            text-align: center;
+          }
+          h3 {
+            font-size: 18px;
+            margin-top: 60px;
+            font-weight: bold;
+          }
+          p.carrar {
+            margin-top: 5px;
+          }
+          span.br {
+            display: inline-block;
+            padding-left: 85px;
+          }
+          span.br2 {
+            display: inline-block;
+            padding-left: 92px;
+          }
+        }
+      }
+    }
+    
+  
+  }
+  
+  .about_challenge {
+    // margin-top: 100px;
+    padding-top: 150px;
+    h2 {
+      font-weight: bold;
+      font-size: 25px;
+    }
+    span {
+      font-size: 16px;
+
+    }
+     &__blog {
+       margin-top: 40px;
+       h3 {
+         font-size: 20px;
+         font-weight: bold;
+       }
+       span.h3-underline {
+        width: 150px;
+        border-bottom: solid 1px #888;
+        display: inline-block;
+        display: flex;
+        margin-top: 5px;
+       }
+       p:first-of-type{
+        margin-top: 30px;
+       }
+       span.blank {
+        margin-left: 10px;
+      }
+     }
+     &__programming {
+      margin-top: 120px;
+       h3 {
+        font-size: 20px;
+        font-weight: bold;
+       }
+       span.h3-underline {
+        width: 300px;
+        border-bottom: solid 1px #888;
+        display: inline-block;
+        display: flex;
+        margin-top: 5px;
+       }
+       ul {
+         margin-top: 30px;
+         font-weight: bold;
+         font-size: 18px;
+         li {
+           font-weight: normal;
+           list-style: inside;
+           padding-left: 5px;
+           font-size: 14px;
+         }
+         li:first-of-type {
+           margin-top: 15px;
+         }
+         span.br {
+           display: inline-block;
+           padding-left: 19px;
+           font-size: 14px;
+         }
+        
+  
+       }
+       ul:nth-of-type(n+2) {
+        margin-top: 50px;
+      }
+     }
+    &__another {
+      margin-top: 100px !important;
+      // padding-top: 100px;
+      h3 {
+        font-size: 20px;
+        font-weight: bold;
+       }
+      span.h3-underline {
+        width: 300px;
+        border-bottom: solid 1px #888;
+        display: inline-block;
+        display: flex;
+        margin-top: 5px;
+       }
+      ul {
+        li {
+          font-weight: normal;
+          list-style: inside;
+          padding-left: 5px;
+          font-size: 16px;
+        }
+         li:first-of-type {
+          margin-top: 15px;
+        }
+      }
+    }
+  }
+  
+  .objective {
+    margin-top: 200px !important;
+    // padding-top: 200px;
+  
+    &__box {
+      display: flex;
+      flex-direction: column;
+      h2 {
+        font-size: 23px;
+        font-weight: bold;
+      }
+      &--text {
+        width: 100%;
+        p {
+          margin-top: 10px;
+          letter-spacing: 1px;
+        }
+        p:first-of-type{
+          margin-top: 30px;
+         }
+
+      }
+      &--image {
+        // margin-right: 50px;
+        margin-top: 50px !important;
+        margin: 0 auto;
+        img {
+
+        }
+      }
+    }
+  }
+
+
+
+}
+
+
+

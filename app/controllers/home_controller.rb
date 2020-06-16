@@ -21,6 +21,8 @@ class HomeController < ApplicationController
   def freemarket61 
   end
 
+  def about 
 
+  end
   
 end
