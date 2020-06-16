@@ -7,5 +7,7 @@ Rails.application.routes.draw do
   get 'home/kurisuta02'
   get 'home/chat_space'
   get 'home/freemarket61'
+  get 'home/about'
+
   
 end
