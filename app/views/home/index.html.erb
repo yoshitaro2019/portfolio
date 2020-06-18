@@ -34,6 +34,11 @@
 </section>
 
 
+<%= link_to "/home/skills" ,data: {turbolinks: "false"} do %><% end %>
+
+
+
+
 <section class="skills" id="skills">
   <div class=" section-top2 wrapper">
     <div class="title">
@@ -42,42 +47,64 @@
     </div>
     <div class="skill-box fadein01">
       <ul class="skill-item">
-        <li class="skill-items">
-          <%= image_tag "html-5.svg", alt: "HTML5のロゴ", class: "" %>
-          <p>HTML5</p>
-        </li>
-        <li class="skill-items">
-          <%= image_tag "css-3.svg", alt: "CSS3のロゴ", class: "" %>
-          <p>CSS3</p>
-        </li>
-        <li class="skill-items">
-          <%= image_tag "sass.svg", alt: "Sassのロゴ", class: "" %>
-          <p>Sass</p>
-        </li>
-        <li class="skill-items">
-          <%= image_tag "javascript.svg", alt: "JSのロゴ", class: "" %>
-          <p>Java Script</p>
-        </li>
-        <li class="skill-items">
-          <%= image_tag "jquery.svg", alt: "jQueryのロゴ", class: "" %>
-          <p>jQuery</p>
-        </li>
-        <li class="skill-items">
-          <%= image_tag "ruby.svg", alt: "Rubyのロゴ", class: "" %>
-          <p>Ruby</p>
-        </li>
-        <li class="skill-items">
-          <%= image_tag "rails.svg", alt: "Railsのロゴ", class: "" %>
-          <p>Rails</p>
-        </li>
-        <li class="skill-items">
-          <%= image_tag "github-icon.svg", alt: "GitHubのロゴ", class: "" %>
-          <p>Git/GitHub</p>
-        </li>
-        <li class="skill-items">
-          <%= image_tag "aws.svg", alt: "AWSのロゴ", class: "" %>
-          <p>AWS</p>
-        </li>
+        <%= link_to "/home/skills" ,data: {turbolinks: "false"} do %>
+          <li class="skill-items">
+            <%= image_tag "html-5.svg", alt: "HTML5のロゴ", class: "" %>
+            <p>HTML5</p>
+          </li>
+        <% end %>
+        <%= link_to "/home/skills" ,data: {turbolinks: "false"} do %>
+          <li class="skill-items">
+            <%= image_tag "css-3.svg", alt: "CSS3のロゴ", class: "" %>
+            <p>CSS3</p>
+          </li>
+        <% end %>
+        <%= link_to "/home/skills" ,data: {turbolinks: "false"} do %>
+          <li class="skill-items">
+            <%= image_tag "sass.svg", alt: "Sassのロゴ", class: "" %>
+            <p>Sass</p>
+          </li>
+        <% end %>
+        <%= link_to "/home/skills" ,data: {turbolinks: "false"} do %>
+          <li class="skill-items">
+            <%= image_tag "javascript.svg", alt: "JSのロゴ", class: "" %>
+            <p>Java Script</p>
+          </li>
+        <% end %>
+        <%= link_to "/home/skills" ,data: {turbolinks: "false"} do %>
+          <li class="skill-items">
+            <%= image_tag "jquery.svg", alt: "jQueryのロゴ", class: "" %>
+            <p>jQuery</p>
+          </li>
+        <% end %>
+        <%= link_to "/home/skills" ,data: {turbolinks: "false"} do %>
+          <li class="skill-items">
+            <%= image_tag "ruby.svg", alt: "Rubyのロゴ", class: "" %>
+            <p>Ruby</p>
+          </li>
+        <% end %>
+
+        <%= link_to "/home/skills" ,data: {turbolinks: "false"} do %>
+          <li class="skill-items">
+            <%= image_tag "rails.svg", alt: "Railsのロゴ", class: "" %>
+            <p>Rails</p>
+          </li>
+        <% end %>
+
+        <%= link_to "/home/skills" ,data: {turbolinks: "false"} do %>
+          <li class="skill-items">
+            <%= image_tag "github-icon.svg", alt: "GitHubのロゴ", class: "" %>
+            <p>Git/GitHub</p>
+          </li>
+        <% end %>
+
+
+        <%= link_to "/home/skills" ,data: {turbolinks: "false"} do %>
+          <li class="skill-items">
+            <%= image_tag "aws.svg", alt: "AWSのロゴ", class: "" %>
+            <p>AWS</p>
+          </li>
+        <% end %>
       </ul>
     </div>
   </div>
