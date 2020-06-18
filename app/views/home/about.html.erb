@@ -8,8 +8,13 @@
         <%= image_tag "sheep.png", alt: "Michiko Sakaiの写真", class: "Michiko Sakaiの写真" %>
       </div>
       <div class="about-text">
-        <h2>Michiko Sakai</h2>
-          <p class="birthday">1986年 1月7日生まれ <span class="age"> (<%= @age%>) </span></p>
+
+        <div class="about-text__plf-box">
+          <div class="about-text__plf-box--name-box">
+            <h2>Michiko Sakai</h2>
+            <p class="birthday">1986年 1月7日生まれ <span class="age"> (<%= @age%>) </span></p>
+          </div>
+ 
           <div class="social-box">
             <%= link_to "https://twitter.com/yoshitaro_ms" ,class: "icon-button twitter ",target: :"_blank" do %>
               <i class="fab fa-twitter icon-twitter"></i><span></span>
@@ -21,11 +26,18 @@
               <i class="fas fa-pen icon-blog"></i><span></span>
             <% end %>
           </div>
+        </div>
 
-        <h3>経歴</h3>
-        <p class="carrar">2009年 3月 <span class="blank"></span >和菓子の製造販売会社 就職 <span class="br">（販売職）</span></p>
-        <p>2019年 9月 <span class="blank"></span >テックキャンプ 渋谷校 / <span class="br2">エンジニア / 夜間・休日コース 入校</span></p>
-        <p>2020年 4月 <span class="blank"></span >テックキャンプ卒業</p>
+        
+
+        <div class="about-text--carrar-box">
+          <h3>経歴</h3>
+          <p class="carrar">2009年 3月 <span class="blank"></span >和菓子の製造販売会社 就職 <span class="br">（販売職）</span></p>
+          <p>2019年 9月 <span class="blank"></span >テックキャンプ 渋谷校 / <span class="br2">エンジニア / 夜間・休日コース 入校</span></p>
+          <p>2020年 4月 <span class="blank"></span >テックキャンプ卒業</p>
+        </div>
+        
+
 
       </div>
     </div>
