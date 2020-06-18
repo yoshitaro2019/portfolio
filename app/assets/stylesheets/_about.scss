@@ -36,6 +36,98 @@
         p.birthday {
           font-weight: bold;
         }
+        .social-box {
+          /* Wrapper */
+        .icon-button {
+          background-color: white;
+          border-radius: 3.6rem;
+          cursor: pointer;
+          display: inline-block;
+          font-size: 25px;
+          height: 50px;
+          line-height: 50px;
+          margin: 0 auto;
+          position: relative;
+          text-align: center;
+          -webkit-user-select: none;
+            -moz-user-select: none;
+              -ms-user-select: none;
+                  user-select: none;
+          width: 50px;
+          &:hover span {
+            width: 50px;
+            height: 50px;
+            border-radius: 50px;
+            margin: -25px;
+          }
+          & i {
+            background: none;
+            color: white;
+            height: 50px;
+            left: 0;
+            line-height: 50px;
+            position: absolute;
+            top: 0;
+            -webkit-transition: all 0.3s;
+              -moz-transition: all 0.3s;
+                -o-transition: all 0.3s;
+                    transition: all 0.3s;
+            width: 50px;
+            z-index: 4;
+          }
+
+        }
+
+        /* Circle */
+        .icon-button span {
+          border-radius: 0;
+          display: block;
+          height: 0;
+          left: 50%;
+          margin: 0;
+          position: absolute;
+          top: 50%;
+          -webkit-transition: all 0.3s;
+            -moz-transition: all 0.3s;
+              -o-transition: all 0.3s;
+                  transition: all 0.3s;
+          width: 0;
+        }
+        // .icon-button:hover span {
+
+        // }
+        .twitter span {
+          background-color: #4099ff;
+        }
+        .github span {
+          background-color: #161614;
+        }
+        .blog span {
+          background-color: #db5a3c;
+        }
+
+        /* Icons */
+        // .icon-button i {
+
+        // }
+        .icon-button .icon-twitter {
+          color: #4099ff;
+        }
+        .icon-button .icon-github {
+          color: #161614;
+        }
+        .icon-button .icon-blog {
+          color: #db5a3c;
+          font-size: 20px;
+        }
+        .icon-button:hover .icon-twitter,
+        .icon-button:hover .icon-github,
+        .icon-button:hover .icon-blog {
+          color: white;
+        }
+
+
+        }
         h3 {
           font-size: 20px;
           margin-top: 30px;
@@ -224,6 +316,13 @@
           p.birthday {
             font-weight: bold;
             text-align: center;
+          }
+          .social-box {
+            display: flex;
+            justify-content: center;
+            .icon-button {
+              margin: 10px 0;
+            }
           }
           h3 {
             font-size: 18px;
