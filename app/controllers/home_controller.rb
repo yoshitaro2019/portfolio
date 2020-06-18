@@ -29,5 +29,8 @@ class HomeController < ApplicationController
     @age = (Date.today.strftime(date_format).to_i - birthday.strftime(date_format).to_i) / 10000
   end
 
-  
+  def skills 
+    
+  end
+
 end
