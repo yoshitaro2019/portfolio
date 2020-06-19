@@ -8,13 +8,36 @@
         <%= image_tag "sheep.png", alt: "Michiko Sakaiの写真", class: "Michiko Sakaiの写真" %>
       </div>
       <div class="about-text">
-        <h2>Michiko Sakai</h2>
-          <p class="birthday">1986年 1月7日生まれ <span class="age"> (<%= @age%>) </span></p>
 
-        <h3>経歴</h3>
-        <p class="carrar">2009年 3月 <span class="blank"></span >和菓子の製造販売会社 就職 <span class="br">（販売職）</span></p>
-        <p>2019年 9月 <span class="blank"></span >テックキャンプ 渋谷校 / <span class="br2">エンジニア / 夜間・休日コース 入校</span></p>
-        <p>2020年 4月 <span class="blank"></span >テックキャンプ卒業</p>
+        <div class="about-text__plf-box">
+          <div class="about-text__plf-box--name-box">
+            <h2>Michiko Sakai</h2>
+            <p class="birthday">1986年 1月7日生まれ <span class="age"> (<%= @age%>) </span></p>
+          </div>
+ 
+          <div class="social-box">
+            <%= link_to "https://twitter.com/yoshitaro_ms" ,class: "icon-button twitter ",target: :"_blank" do %>
+              <i class="fab fa-twitter icon-twitter"></i><span></span>
+            <% end %>
+            <%= link_to "https://github.com/yoshitaro2019" ,class: "icon-button github ",target: :"_blank" do %>
+              <i class="fab fa-github icon-github"></i><span></span>
+            <% end %>
+            <%= link_to "https://yoshitaro-blog.com/" ,class: "icon-button blog ",target: :"_blank" do %>
+              <i class="fas fa-pen icon-blog"></i><span></span>
+            <% end %>
+          </div>
+        </div>
+
+        
+
+        <div class="about-text--carrar-box">
+          <h3>経歴</h3>
+          <p class="carrar">2009年 3月 <span class="blank"></span >和菓子の製造販売会社 就職 <span class="br">（販売職）</span></p>
+          <p>2019年 9月 <span class="blank"></span >テックキャンプ 渋谷校 / <span class="br2">エンジニア / 夜間・休日コース 入校</span></p>
+          <p>2020年 4月 <span class="blank"></span >テックキャンプ卒業</p>
+        </div>
+        
+
 
       </div>
     </div>
@@ -38,7 +61,7 @@
       <h3>プログラミング / デザイン学習</h3>
       <span class="h3-underline"></span>
         <ul>書籍
-          <li>1冊ですべて身につく <span class="br">HTML&CSSとWebデザイン 入門講座</span></li>
+          <li>1冊ですべて身につく <span class="br"></span>HTML&CSSとWebデザイン 入門講座</li>
           <li>たのしいRuby</li>
           <li>Ruby on Rails5 アプリケーションプログラミング </li>
           <li>本当によくわかる JavaScriptの教科書</li>
