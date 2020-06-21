@@ -45,7 +45,6 @@
           }
           ul {
             margin-top: 10px;
-            // padding-left: 20px;
             li {
               font-size: 16px;
               list-style: inside;
@@ -74,99 +73,49 @@
 
 @media(max-width:375px) {
 
-.work_wrapper {
-  max-width: 345px;
-  margin: 0 auto;
-}
-
-.works {
-  // background: #EDF2F7;
-  .header {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background: #2063C1;
+  .work_wrapper {
+    margin: 0 10px;
   }
-  
-  .work {
-    margin-top: 50px;
 
-    &--box {
-      &__image {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        padding: 50px 0;
-        width: 100%;
-        background: #EDF2F7;
-        img {
-          width: 345px;
-          border-radius: 10px;
-          box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.25);
-        }
-      }
-      &__textbox {
-
-        max-width: 345px;
-        margin: 0 auto;
-        background: #fff;
-        h2.work_title {
-          margin-top: 45px;
-          font-size: 25px;
-          font-weight: bold;
-          font-family: 'Roboto', sans-serif;
-          letter-spacing: 1px;
-        }
-        .work_text {
-          margin-top: 60px;
-          h3 {
-            font-size: 18px;
-            font-weight: bold;
+  .works {
+    .header {
+    }
+    .work {
+      margin-top: 50px;
+      &--box {
+        &__image {
+          padding: 50px 10px;
+          margin: 0 auto;
+          img {
+            width: 345px;
           }
-          h3:nth-of-type(n+2) {
-            margin-top: 70px;
+        }
+        &__textbox {
+          margin: 0 10px;
+          h2.work_title {
+            font-size: 25px;
+            letter-spacing: 1px;
           }
-          ul {
-            margin-top: 10px;
-            // padding-left: 20px;
-            li {
+          .work_text {
+            h3 {
+              font-size: 18px;
+            }
+            h3:nth-of-type(n+2) {
+            }
+            ul {
+              li {
+                font-size: 14px;
+              }
+            }
+            p.use_tool{
+              font-size: 18px;
+            }
+            p.use_tools {
               font-size: 14px;
-              list-style: inside;
-              padding-left: 5px;
             }
           }
-          p.use_tool{
-            margin-top: 60px;
-            font-weight: bold;
-            font-size: 18px;
-          }
-          p.use_tools {
-            margin-top: 10px;
-            font-size: 14px;
-          }
-
-
         }
       }
     }
   }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
