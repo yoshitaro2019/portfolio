@@ -45,7 +45,7 @@
     }
   }
   
-  // normal_header_start
+// normal_header_start
   
   .header {
     height: 50px;
@@ -69,24 +69,21 @@
       display: none;
     }
 
-    // ハンバーガーメニュー非表示
+// ハンバーガーメニュー非表示
     .btn-gnavi {
       display: none;
     }
     nav#global-navi {
       display: none;
     }
-  
   }
   
-  // normal_header_end
+// normal_header_end
   
   
 
 
-
-
-    // ハンバーガーメニュー表示
+// ハンバーガーメニュー表示
     .btn-gnavi {
       display: inline-block !important;
       position: fixed;
@@ -181,35 +178,11 @@
     }
 
   // ハンバーガーメニュー終了
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   
   // 共通項終了
   
+
+
   // home_section_start
   
   .big-bg {
@@ -217,10 +190,6 @@
     background-position: center top;
     background-repeat: no-repeat;
   }
-  
-  // #home {
-  
-  // }
   
   .home {
     background-image: url(maldives.jpg);
@@ -247,7 +216,6 @@
 	        white-space: pre ;
         }
       }
-
     }
   }
   
@@ -486,12 +454,8 @@
       }
     }
   }
-  
-  
-  
+
   // contact_section_end
-  
-  
   
   svg.wave-svg {
     vertical-align:bottom;
@@ -512,15 +476,6 @@
       background: linear-gradient(#0bd,#0694E7);
     }
   }
-  
-  
-  
-  // footer-end
-  
-  
-  
+  // footer-end 
 
-
-
-  
 }
