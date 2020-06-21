@@ -265,6 +265,8 @@ p {
         flex-direction: column;
         border-radius: 20px;
         border: 1px solid #fff;
+        box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+        transition: all 0.8s ease 0s;
         img {
           height: 70px;
           width: 70px;
@@ -281,7 +283,13 @@ p {
           display: inline-block;
           border-top: 1px solid #EDF2F7;
         }
+        &:hover {
+          box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.25);
+          transform: translateY(-0.2em);
+          transition: all 0.5s ease 0s;
+        }
       }
+
     }
   }
 }
