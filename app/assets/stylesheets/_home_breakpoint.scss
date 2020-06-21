@@ -11,8 +11,8 @@
   }
 
   .wrapper {
-    max-width: 345px;
-    margin: 0 auto;
+    // max-width: 320px;
+    margin: 0 10px;
   }
   
   .section-top {
@@ -324,7 +324,7 @@
         li.skill-items {
           margin: 0 auto;
           background-color: #fff;
-          width: 100px;
+          width: 90px;
           display: flex;
           flex-direction: column;
           border-radius: 20px;
@@ -332,15 +332,15 @@
           img {
             height: 35px;
             width: 35px;
-            margin: 15px auto;
+            margin: 10px auto;
           
           }
           p {
             font-family: 'Roboto', sans-serif;
-            font-size: 16px;
+            font-size: 14px;
             font-weight: bold;
-            height: 40px;
-            line-height: 40px;
+            height: 35px;
+            line-height: 35px;
             text-align: center;
             display: inline-block;
             border-top: 1px solid #EDF2F7;
@@ -401,7 +401,8 @@
       display: flex;
       justify-content: center;
       .service-box {
-        width: 550px;
+        // margin: 0 10px;
+        width: 100%;
         background-color: #fff;
         display: flex;
         flex-direction: column;

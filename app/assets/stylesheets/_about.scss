@@ -260,6 +260,7 @@
   &__box {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     h2 {
       font-size: 30px;
       font-weight: bold;
@@ -269,9 +270,21 @@
       p {
         letter-spacing: 1px;
       }
-      p:first-of-type{
+      p:first-of-type,
+      p:nth-of-type(3) {
+        font-weight: bold;
+      }
+      p:first-of-type,
+      p:nth-of-type(5) {
         margin-top: 30px;
-       }
+      }
+      p:nth-of-type(3) {
+        margin-top: 50px;
+      }
+      p:nth-of-type(2),
+      p:nth-of-type(4) {
+        margin-top: 10px;
+      }
     }
     &--image {
       // margin-right: 50px;
