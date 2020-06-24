@@ -87,6 +87,7 @@ p {
     align-items: center;
   }
   .nav-logo{
+    margin-left: 10px;
     img {
       height: 50px;
       color: #fff;
@@ -109,6 +110,9 @@ p {
             transition: all 0.8s ease 0s;
             // letter-spacing: 3px;
           }
+        }
+        &:last-of-type {
+          margin-right: 10px;
         }
       }
     }
@@ -145,36 +149,6 @@ p {
   background-image: url(maldives.jpg);
   min-height: 100vh;
   position: relative;
-  // .header {
-  //   height: 70px;
-  //   background-color: rgba(31, 121, 216, 0.6);
-  //   // position: fixed;
-  //   .wrapper {
-  //     height: 70px;
-  //     display: flex;
-  //     justify-content: space-between;
-  //     align-items: center;
-  //   }
-  //   .nav-logo{
-  //     img {
-  //       height: 50px;
-  //       color: #fff;
-  //     }
-  //   }
-  //   .nav {
-  //     display: flex;
-  //     &--ul {
-  //       display: flex;
-  //       li {
-  //         padding-left: 20px;
-  //         font-weight: bold;
-  //         color: #fff;
-  //         font-family: 'Roboto', sans-serif;
-  //         letter-spacing: 1.5px;
-  //       }
-  //     }
-  //   }
-  // }
   .home-body {
     display: flex;
     justify-content: center;
@@ -353,8 +327,9 @@ p {
       .service-title {
         display: flex;
         flex-direction: column;
-        padding-top: 40px;
-        padding-bottom: 20px;
+        // padding-top: 40px;
+        // padding-bottom: 20px;
+        padding: 40px 20px 20px;
         border-bottom: 2px solid $bg_gray;
       img {
         margin: 0 auto;
