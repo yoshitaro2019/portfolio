@@ -25,7 +25,7 @@ $(function(){
     height: 100,
     bones: 3,
     amplitude: 40,
-    color: '#0bd',
+    color: '#31C9D1',
     speed: .1
   });
 });
