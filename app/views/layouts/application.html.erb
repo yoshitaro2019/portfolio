@@ -8,12 +8,13 @@
   <!-- Webページの説明文 -->
     <meta name="description" content="Miciko Sakai Portfolio Website">
 	<!-- ファビコンの設定 -->
-    <link rel="icon" type="image/png" href="favicon.ico">
+  
   <!-- レスポンシブ ビューポート -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
   </head>
 
   <body>
@@ -22,6 +23,10 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"></script>
     <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/85188/jquery.wavify.js"></script>
+
+    <%= javascript_include_tag('jquery.lettering.js') %>
+    <%= javascript_include_tag('jquery.textillate.js') %>
+  
 
     <%= yield %>
   </body>

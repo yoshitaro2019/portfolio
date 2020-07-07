@@ -69,3 +69,22 @@ $(function(){
     },300);
   });
 });
+
+
+// タイトルアニメーション
+
+$(function () {
+  $('.h1').textillate({
+    loop: false,  
+    minDisplayTime: 3000,  
+    initialDelay: 500,  
+    autoStart: true,  
+    in:{
+      effect: 'fadeIn',  
+      delayScale: 1.5,  
+      delay: 50,  
+      sync: false,  
+      shuffle: false
+    },  
+  });
+})
