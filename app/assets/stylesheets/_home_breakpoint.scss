@@ -38,7 +38,6 @@
     .title-underline {
       width: 100px;
       text-align: center;
-      border-bottom: solid 5px #1751CD;
       display: inline-block;
       display: flex;
       margin: 10px auto 0;
@@ -246,29 +245,11 @@
         align-items: center;
         p {
          margin-bottom: 13px;
-  
         }
         button.lead-more-btn {
           margin-top: 40px;
-          width: 200px;
-          height: 50px;
-          background: #1751CD;
           text-align: center;
-          color: #fff;
           position: static;
-          border-radius: 40% 70% 20% 40%/70% 60% 70% 50%;
-          transition: all 0.8s ease 0s;
-          font-size: 16px;
-          font-weight: bold;
-          font-family: 'Roboto', sans-serif;
-          letter-spacing: 1.5px;
-  
-          &:hover {
-            border-radius: 90% 80% 90% 50%/90% 90% 80% 90%;
-            transition: all 0.8s ease 0s;
-            background-color: #23AC0E;
-            letter-spacing: 2.5px;
-          }
         } 
       }
     }
@@ -288,8 +269,8 @@
         display: grid;
         // grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
-        gap: 20px; 
-        margin: 0 auto;
+        row-gap: 35px;
+        column-gap: 40px;
         li.skill-items {
           margin: 0 auto;
           background-color: #fff;
@@ -432,7 +413,7 @@
         button.contact-btn {
           width: 200px;
           height: 60px;
-          background: #1751CD;
+
           text-align: center;
           color: #fff;
           margin-top: 70px;
@@ -521,7 +502,6 @@
     .title-underline {
       width: 100px;
       text-align: center;
-      border-bottom: solid 5px #1751CD;
       display: inline-block;
       display: flex;
       margin: 10px auto 0;
@@ -632,7 +612,6 @@
       right: -375px;
       width: 100%;
       height: 100%;
-      // padding-top: 50px;
       background: #fff;
       font-size: 16px;
       box-sizing: border-box;
@@ -675,8 +654,6 @@
   }
   
   .home {
-    // background-image: url(maldives.jpg);
-    // min-height: 100vh;
     position: relative;
     .home-body {
       display: flex;
@@ -684,7 +661,6 @@
       align-items: center;
       
       h1 {
-        // max-width: 345px;
         font-size: 30px;
         font-weight: bold;
         color: #fff;
@@ -712,7 +688,6 @@
     background-color: #fff;
     .about-box {
       display: flex;
-      // justify-content: space-around;
       flex-direction: column;
       margin-top: 60px;
       .about-image{
@@ -736,7 +711,7 @@
           margin-top: 40px;
           width: 200px;
           height: 50px;
-          background: #1751CD;
+          // background: #1751CD;
           text-align: center;
           color: #fff;
           position: static;
@@ -769,9 +744,9 @@
       margin-top: 70px;
       ul.skill-item {
         display: grid;
-        // grid-template-columns: 1fr 1fr 1fr;
         grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
-        gap: 10px; 
+        row-gap: 25px;
+        column-gap: 40px;
 
         li.skill-items {
           margin: 0 auto;
@@ -815,17 +790,14 @@
         display: flex;
         flex-direction: column;
         li.portfolio-items {
-          // background-color: #fff;
           width: 100%;
           display: flex;
           align-items: center;
-          // border: 1px solid #fff;
           img {
             width: 300px;
             border-radius: 10px;
             box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.25);
             color: #fff;
-            // display: inline-block;
             transition: all 0.8s ease 0s;
           }
           img:hover {
@@ -853,12 +825,10 @@
       display: flex;
       justify-content: center;
       .service-box {
-        // margin: 0 10px;
         width: 100%;
         background-color: #fff;
         display: flex;
         flex-direction: column;
-        // padding: 40px 60px;
         border-radius: 10px;
         .service-title {
           display: flex;
@@ -918,7 +888,7 @@
         button.contact-btn {
           width: 200px;
           height: 60px;
-          background: #1751CD;
+          // background: #1751CD;
           text-align: center;
           color: #fff;
           margin-top: 70px;
