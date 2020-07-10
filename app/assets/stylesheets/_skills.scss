@@ -26,46 +26,29 @@
       width: 1000px;
       li.skill-box01 {
         display: flex;
+        align-items: center;
         padding: 30px 0;
         border-top: 1px solid $bg_gray;
-        margin-top: 60px;
-        figure.skill-img {
-          img {
-            height: 80px;
-            width: 80px;
-          }
-
+        img {
+          height: 80px;
+          width: 80px;
         }
         .skill-text {
           margin-left: 25px;
-          p {
-            line-height: 40px;
+          display: flex;
+          align-items: center;
+          ul.skill-list {
+            li {
+            }
           }
-
         }
+      }
+      li.skill-box01:first-of-type {
+        margin-top: 60px;
       }
       li.skill-box01:nth-of-type(2) {
         border-bottom: 1px solid $bg_gray;
         margin-top: 0;
-      }
-      li.skill-box02,
-      li.skill-box03,
-      li.skill-box04 {
-        display: flex;
-        padding: 30px 0;
-        border-bottom: 1px solid $bg_gray;
-        figure.skill-img {
-          img {
-            height: 80px;
-            width: 80px;
-          }
-        }
-        .skill-text {
-          margin-left: 25px;
-          p {
-            line-height: 80px;
-          }
-        }
       }
     }
   }
@@ -76,178 +59,33 @@
 
   .skill_top {
     .skill-inner {
-      margin-top: 120px;
-      h2 {
-        font-size: 30px;
-        font-weight: bold;
-      }
       .title-underline {
-        width: 80px;
-        text-align: center;
-        border-bottom: solid 5px $main_color;
-        display: inline-block;
-        display: flex;
-        margin-left: 12px;
       }
       ul {
         width: 100%;
-        li.skill-box01 {
-          display: flex;
-          padding: 30px 0;
-          border-top: 1px solid $bg_gray;
-          margin-top: 60px;
-          figure.skill-img {
-            img {
-              height: 80px;
-              width: 80px;
-            }
-  
-          }
-          .skill-text {
-            margin-left: 25px;
-            p {
-              line-height: 40px;
-            }
-  
-          }
-        }
-        li.skill-box01:nth-of-type(2) {
-          border-bottom: 1px solid $bg_gray;
-          margin-top: 0;
-        }
-        li.skill-box02,
-        li.skill-box04 {
-          display: flex;
-          padding: 30px 0;
-          border-bottom: 1px solid $bg_gray;
-          figure.skill-img {
-            img {
-              height: 80px;
-              width: 80px;
-            }
-          }
-          .skill-text {
-            margin-left: 25px;
-            p {
-              line-height: 80px;
-            }
-          }
-
-        }
-        li.skill-box03 {
-          display: flex;
-          padding: 30px 0;
-          border-bottom: 1px solid $bg_gray;
-          .skill-text {
-            margin-left: 25px;
-            p {
-              line-height: 40px;
-            }
-          }
-          span.br::after {
-            content: "\A" ;
-            white-space: pre ;
-          }
-        }
       }
     }
   }
-
 }
-
-
-
-
-
 
 
 @media(max-width:375px) {
   .skill_top {
-    .header {
-      position: fixed;
-      top: 0;
-      width: 100%;
-      background: #2063C1;
-    }
     .skill-inner {
-      margin-top: 100px;
-      h2 {
-        font-size: 30px;
-        font-weight: bold;
-        text-align: center;
-        font-family: 'Roboto', sans-serif;
-        letter-spacing: 2px;
-      }
       .title-underline {
-        width: 80px;
-        text-align: center;
-        border-bottom: solid 5px $main_color;
-        display: inline-block;
-        display: flex;
-        margin: 0 auto ;
       }
       ul {
         width: 100%;
         li.skill-box01 {
-          // width: 100%;
-          display: flex;
-          padding: 30px 0;
-          border-top: 1px solid $bg_gray;
-          margin-top: 60px;
-          figure.skill-img {
-            img {
-              height: 60px;
-              width: 60px;
-            }
-  
-          }
-          .skill-text {
-            margin-left: 25px;
-            p {
-              line-height: 30px;
-              font-size: 14px;
-            }
-  
+          img {
+            height: 60px;
+            width: 60px;
           }
         }
-        li.skill-box01:nth-of-type(2) {
-          border-bottom: 1px solid $bg_gray;
-          margin-top: 0;
-        }
-        li.skill-box02,
-        li.skill-box03,
-        li.skill-box04 {
-          width: 100%;
-          display: flex;
-          padding: 30px 0;
-          border-bottom: 1px solid $bg_gray;
-          figure.skill-img {
-            
-            img {
-              height: 60px !important;
-              width: 60px !important;
-            }
-          }
-          .skill-text {
-            width: 260px;
-            margin-left: 25px;
-            p {
-              line-height: 20px;
-              font-size: 14px;
-              
-            }
-          }
-          span.br::after {
-            content: "\A" ;
-            white-space: normal ;
-          }
-        }
-
-
       }
+
     }
   }
-  
 
 
 
